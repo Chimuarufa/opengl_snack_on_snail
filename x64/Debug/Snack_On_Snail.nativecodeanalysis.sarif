@@ -1,0 +1,475 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32541.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/snack_on_snail.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "dbc19c40919f1b31ea810a72ee63428dd28a6c8b46f822f6bf13838f9891f3a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/freeglut.3.0.0.v140.1.0.2/sources/gl/glut.h"
+          },
+          "hashes": {
+            "sha-256": "e3ffcfd1147cd45a9ddb49ab9791e8fc6269f52732f0c02f10f2daf9cc0e730b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/freeglut.3.0.0.v140.1.0.2/sources/gl/freeglut_std.h"
+          },
+          "hashes": {
+            "sha-256": "4d19d4c491d8b36db0bb2d96d201ab5f29a938b3b014ad216755964ae3bd3d03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/soil.1.16.0/build/native/include/soil.h"
+          },
+          "hashes": {
+            "sha-256": "11b4217846dd1cafe530d1bd6e99b262e0002aafdd6ab0171eeb9d8e6327085c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl.h"
+          },
+          "hashes": {
+            "sha-256": "56fcf4e37c20baa7e0a87e3ff5d775ba332858dbd729e53d8246b0f49329c97d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_main.h"
+          },
+          "hashes": {
+            "sha-256": "0bfe572ce7c0cf732ffbbc1aa157c2434bc55604ad2307a109b3cebc383700d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "sha-256": "0c2b96ac5b57b3f913b4025dc6be8b9e735bf48cce02c4373e78ad34d08b0dc9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_config.h"
+          },
+          "hashes": {
+            "sha-256": "c7824b2878739eed25d43f328a4c37ef256ab32372daf5eca0a3c6ed9c1be342"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_platform.h"
+          },
+          "hashes": {
+            "sha-256": "74ab9814d8f1f5428d99035e8820c8a18f6984b76a05c47aa7595dd30abbf1db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/begin_code.h"
+          },
+          "hashes": {
+            "sha-256": "0b61a158e4ee9834da0b35fef6ca017b928407c40ebc2fbe848410738c2105b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/close_code.h"
+          },
+          "hashes": {
+            "sha-256": "4599e9cedba7451ff07a6306f0b7531beed05b1c5a65b1a2613d1b771be43fda"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_config_windows.h"
+          },
+          "hashes": {
+            "sha-256": "71b3e9c5e56f0e2f4f70fb65210676bf6a757adddc40dda7181f199aa4be7b31"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_assert.h"
+          },
+          "hashes": {
+            "sha-256": "b167027dd0688280bd3d550fad0490d67f62c5fb225a2e4c3f31fb1fee49668f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "sha-256": "ce14b13cb8bc9f1b429c8b9f4de56c9a2d32d5b0a8e97d48c9a043a7807ea911"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_audio.h"
+          },
+          "hashes": {
+            "sha-256": "4ee4d01ea32bc4e5a9889c2579c899d95831f62cddc655bc9ee69749b7bfa9ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_error.h"
+          },
+          "hashes": {
+            "sha-256": "cd0fb35b6162bcf349387e273663f7fcd30b30a38be244e920e69782f11056c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_endian.h"
+          },
+          "hashes": {
+            "sha-256": "c754666d595f13ab50e09ec3241e1ee1bb18f333e54db51364681ec209799112"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "sha-256": "ca996dab26073b9cec6b4945841c6af24826cd234e3ec6cbec5cd7810b20befa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_thread.h"
+          },
+          "hashes": {
+            "sha-256": "12856e6a4c1858369d45770f70044ec08d28bad259169d31112d9d5f2e44b821"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "sha-256": "4df9f136a29ed7a55502fcd2aea563aecba04bec4aca9407f8513970c993d701"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "sha-256": "0673ff43dce07d5f006faa56ed95eba8c8146ce0afa512f7273733bf95ebd435"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "sha-256": "49fb199607514bcbfc3de9bf4792107174fa9f42140edbf31d2308e0b96c9a94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_events.h"
+          },
+          "hashes": {
+            "sha-256": "b124f1f305f99b3e19fbab35a52abb0c2c592e8ebe5e503ddf97dc5cb548f34b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_video.h"
+          },
+          "hashes": {
+            "sha-256": "ca1a5314ca6f8c8b40cc11f273620f097c80c348fee49b509ecf9dbfd8088fd4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "sha-256": "73299adff4203d9cbc3a40ac656e423bc2a618607fa8e03d3ceed9e92ab91d7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_rect.h"
+          },
+          "hashes": {
+            "sha-256": "c50a1c25dd3e9d87b19c4defc290447b181ff9ed422fcf408b2ee2b7572a433b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_surface.h"
+          },
+          "hashes": {
+            "sha-256": "778c2d44664746d10e608075bc0c21ce267d9c75bb8a0aa1876a2413ab0254f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "sha-256": "6435afe110c5f078816a65a2e7abea57bad36687de1f4afb8cb668ac0e5f93d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "sha-256": "69f6236863225a3011d0e22cc5e368bf08d97eb5aaf1d2f10636d4daf30cbe54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "sha-256": "b87ff05e4c99c18b90cbfbaa805b296c75956f37964175c2dca58c694dcd1608"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "sha-256": "e61f2f22b56887fb01d37d58ca328959264f2191034899d541630d0ad940e9dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "sha-256": "2f15a56901611c729274a08d0ad5f91f117b2d40a75cf561f40787245d3f1285"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "sha-256": "6504f54c5a23def953d2be3193b2253a3480e0177cf6e40ca497596ce14802fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_guid.h"
+          },
+          "hashes": {
+            "sha-256": "34308b7bfc25a0d97a458fd105050160ff3c0776cbe0236dc876cba5ef07fd53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "sha-256": "7006356c570bfc40d1fcfec384690fbe0f5c7bde61b9b999a91fd5c82f5e9ed8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "sha-256": "c4231469584aeb434a30528cf90f00b1f69930ee4da1146841f991811c8c7a0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_quit.h"
+          },
+          "hashes": {
+            "sha-256": "1563882fa80a5a298287e758d76f4e3710d615093e223c8a18647fa475e0e56d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "sha-256": "28a8c57b880c80349f36079eeb87a513ca7fd7501f31abf282996c3c1ba024fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_touch.h"
+          },
+          "hashes": {
+            "sha-256": "c51683f4499a8c6c8503d5a3b16d350e7ce5d2048d6def973e8195f366666626"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "sha-256": "0212a029bfc41326191fa067240b77dda4361d9346b869468e9fb33d1ea9d8cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "sha-256": "281d178347ca3e55e7c65be1d981087b7d03f1daca1faddf51a72d15c5e6f834"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_hidapi.h"
+          },
+          "hashes": {
+            "sha-256": "0c6d5477e17dbe5b808762f74e4285bc00f643bc06349bec0a69f3588ea2ca46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_hints.h"
+          },
+          "hashes": {
+            "sha-256": "88a6359731c1923aeb7a286dabe9020f6889fbd55d198ca4fdee8b1f1d9c9855"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "sha-256": "e458167be5af4b3a0781ca7a2d270abcbb99ccc2f8f289a3fd65f6350451b831"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_log.h"
+          },
+          "hashes": {
+            "sha-256": "0e4ea78f1881f8922433518c54b6099f52e8151e9394bc189aacfaccb21f7f35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "sha-256": "5aeec09224cfb545e5fd7945c86690dee30a4ba8d631db02322643ad6acdfbce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_metal.h"
+          },
+          "hashes": {
+            "sha-256": "536750d59766cec8ab87e4c3d9f76ef69718b74f4b180e677ae8d690da78a1bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_power.h"
+          },
+          "hashes": {
+            "sha-256": "8de669842ae18f78a8299abebefe150534e1f7deb4f4e7f9093f991c7ad3de64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_render.h"
+          },
+          "hashes": {
+            "sha-256": "1ac0ca0d6186821b743a53b218972e149ae4c5a4b346259ea46712d3e99515b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_shape.h"
+          },
+          "hashes": {
+            "sha-256": "ac685d7ea4a5f36baa3231fd9a71c81723f289cfb075a61463babbe822ace14c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_system.h"
+          },
+          "hashes": {
+            "sha-256": "0512b741f7ed90af4e12f004889c42908c55eefae33a80ebea8042f6e19fa774"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_timer.h"
+          },
+          "hashes": {
+            "sha-256": "a5ce66c0a1910f18bf443a17e57972106d5085468ddcd753b0a2cc7e4d33868c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_version.h"
+          },
+          "hashes": {
+            "sha-256": "c53570bdd82a6c3ab81bdb20e588ecf5ee67caa19b1f48306a1fc43bbc3fd09e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_locale.h"
+          },
+          "hashes": {
+            "sha-256": "9c61b714bd55c275fc09fbb121043f468bb4b7e0c79425e7ee5c3b99be8d7ca1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_misc.h"
+          },
+          "hashes": {
+            "sha-256": "58f6807fc70d6b9b2258f1ab21074a55828b270cb9a622790b303f727dc922f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/utem/programming stuffs/visual studio/code/snackonsnail/packages/sdl2-2.30.11/include/sdl_mixer.h"
+          },
+          "hashes": {
+            "sha-256": "04804e48e249f95a9e4bfc125c8ec35c6a11b362b0cc5c97097918496a420bf0"
+          }
+        }
+      ]
+    }
+  ]
+}
